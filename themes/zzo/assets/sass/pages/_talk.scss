@@ -1,0 +1,66 @@
+.talk {
+  &__date {
+    border-radius: 0.25rem;
+    min-width: 100px;
+    max-width: 100px;
+    margin-right: 1rem;
+    font-size: 16px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    position: relative;
+    
+    @include truncate(100px);
+    @include animation('slide-in-left .2s .5s 1 ease both');
+    @include themify($themes) {
+      color: themed('archive-meta-color');
+      background-color: themed('archive-type-background-color');
+    }
+  }
+
+  &__title {
+    &--margin {
+      margin-right: 0.5rem;
+      margin-left: 0.75rem;
+    }
+
+    @include truncate2($grid-max-width);
+    @include on-event {
+      &::before {
+        content: '';
+        position: absolute;
+        left: 100px;                
+        width: 0.2rem;
+        height: 24px;
+        
+        @include themify($themes) {
+          background-color: themed('archive-hover-line-color');
+        }
+
+        @media only screen and (max-width: 769px) {
+          top: 50%;
+          @include translateY(-50%);
+        }
+      }
+
+      @media only screen and (min-width: 769px) {
+        &::before {
+          content: '';
+          position: absolute;
+          left: 3rem;                
+          width: 0.25rem;
+          height: 30px;
+          
+          @include themify($themes) {
+            background-color: themed('archive-hover-line-color');
+          }
+
+          @media only screen and (max-width: 769px) {
+            top: 50%;
+            @include translateY(-50%);
+          }
+        }
+      }
+    }
+  }
+}
