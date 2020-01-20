@@ -1,4 +1,4 @@
-logoText = "Zzo" # Logo text that appears in the site navigation bar.
+logoText = "Cutu" # Logo text that appears in the site navigation bar.
 logoType = "short" # long, short -> short: squre shape includes logo text, long: rectangle shape not includes logo text
 logo = true # Logo that appears in the site navigation bar.
 description = "The Zzo theme for Hugo example site." # for SEO
@@ -21,7 +21,7 @@ enableSearch = true # site search with Fuse
 enableSearchHighlight = true # when true, search keyword will be highlighted
 enableGoToTop = true # scroll to top
 enableWhoami = true # at the end of single page
-summaryShape = "classic" # card, classic, compact
+summaryShape = "card" # card, classic, compact
 archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 archivePaginate = 13 # items per page
 paginateWindow = 1 # setting it to 1 gives 7 buttons, 2 gives 9, etc. If set 1: [1 ... 4 5 6 ... 356] [1 2 3 4 5 ... 356] etc
@@ -111,11 +111,11 @@ scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
 dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions] # if set, social icons will show up.
-email = "mailto:your@email.com"
+email = "mailto:jcx1327994105@outlook.com"
 phone = ""
-facebook = "http://example.org/"
-twitter = "http://example.org/"
-github = "https://github.com/zzossig/hugo-theme-zzo"
+facebook = ""
+twitter = ""
+github = "https://github.com/cutu-open"
 stack-overflow = ""
 instagram = ""
 google-plus = ""

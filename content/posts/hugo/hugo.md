@@ -2,6 +2,13 @@
 title: "Hugo"
 date: 2020-01-19T14:43:26+08:00
 draft: false
+authorEmoji: 🤖 # emoji for subtitle, summary meta data
+authorImage: "/img/whoami/avatar1.jpg" # image path in the static folder
+authorDesc: "hello"# author description
+tags: ["tutorial","Hugo","Go","静态页面博客"]
+categories: ["Hugo"]
+series: ["Tutorial"]
+description: "Hugo基础语法"
 ---
 # Hugo指南
 

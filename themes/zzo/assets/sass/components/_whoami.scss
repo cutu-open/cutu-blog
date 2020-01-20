@@ -46,7 +46,8 @@
     padding-bottom: 0.5rem;
 
     @include themify($codeblock) {
-      text-decoration: underline double themed('content-pre-main-color');
+      // text-decoration: underline double themed('content-pre-main-color');
+      user-select: none;
     }
   }
   

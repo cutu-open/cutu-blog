@@ -1,6 +1,7 @@
-baseURL = "https://cutu-open.github.io/cutu-blog/" # The URL of your site.
+baseURL = "http://example.org/" # The URL of your site.
 title = "AaronJiang" # Title of your site
 theme = "zzo" # Name of Zzo theme folder in `themes/`.
+
 
 defaultContentLanguage = "zh" # Default language to use (if you setup multilingual)
 defaultContentLanguageInSubdir = true # baseURL/en/, baseURL/kr/ ...
