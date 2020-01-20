@@ -75,8 +75,9 @@ clientId = ""           # Your client ID
 clientSecret = ""       # Your client secret
 
 [utterances]       # https://utteranc.es/
-owner = ""              # Your GitHub ID
-repo = ""               # The repo to store comments
+owner = "jcxwyh"              # Your GitHub ID
+repo = "https://github.com/cutu-open/cutu-blog-comment.git" 
+theme="icy-dark"              # The repo to store comments
 
 [gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
 owner = ""              # Your GitHub ID
